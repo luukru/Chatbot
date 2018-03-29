@@ -1,5 +1,7 @@
 # Chatbot
 
+This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that would talk like Cartman, a character from the TV-seris South Park.
+
 ## Running our code
 
 We included two folders in this repository. The first is the 'Training' folder, which contains the code we used to generate vocabulary lists and checkpoints from which we can load pretrained models. The second folder, 'CartmanBot', contains all files necessary to run our chatbot. 

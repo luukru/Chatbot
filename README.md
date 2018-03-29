@@ -2,13 +2,15 @@
 
 This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that would talk like Cartman, a character from the TV-series South Park.
 
-## Running our code
+## CartmanBot
+
+[Write 1-2 paragraphs defining your chatbot: What the goal was, what it actually does, and how it can be used (which input does it expect?)]
 
 We included two folders in this repository. The first is the 'Training' folder, which contains the code we used to generate vocabulary lists and checkpoints from which we can load pretrained models. The second folder, 'CartmanBot', contains all files necessary to run our chatbot. 
 
 To run our chatbot, download the CartmanBot folder and run the file 'telegram.py' with python 3.
 
-## Project
+## Approach
 
 ### Datasets
 We used two datasets to train our model. The first dataset is from Kaggle (https://www.kaggle.com/tovarischsukhov/southparklines/data) and contains South Park dialogues from the first 18 seasons. 
@@ -39,5 +41,6 @@ The reason for this is... (vocabulary size, wider vocabulary)
 The best results were achieved using method [X].
 
 ### Results
+[Show the results: Upload a couple of examples and try to motive why it does or does not work. Any future improvements or possible solutions for your chatbot problems should also be added here]
 
 In the following screenshot, we demonstrate a conversation between ourselves and the CartmanBot.

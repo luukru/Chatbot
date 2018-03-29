@@ -31,7 +31,7 @@ Only Cartman's lines.
 First all of South Park's lines, then only Cartman's lines.
 First all of Cornell's lines, then only Cartman's lines.
 
-The reason for this is...
+The reason for this is... (vocabulary size, wider vocabulary)
 
 The best results were achieved using method [X].
 

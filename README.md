@@ -40,7 +40,7 @@ The reason for this is... (vocabulary size, wider vocabulary)
 
 The best results were achieved using method [X].
 
-### Results
+## Results
 [Show the results: Upload a couple of examples and try to motive why it does or does not work. Any future improvements or possible solutions for your chatbot problems should also be added here]
 
 In the following screenshot, we demonstrate a conversation between ourselves and the CartmanBot.

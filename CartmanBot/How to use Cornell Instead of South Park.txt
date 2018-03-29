@@ -1,0 +1,3 @@
+- Copy the cornell metadata into the CartmanBot folder, replacing the current files.
+- Copy the cornell_ckpt folder contents into the ckpt folder, replacing the current files.
+- Run telegram.py with python version 3.

@@ -1,14 +1,7 @@
 # Chatbot
+This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that could generate context appropriate replies based on user input and that would talk like Eric Cartman, a character from the TV-series South Park. Right now, it is capable of generating replies using the vocabulary of Eric Cartman. The replies are not always grammatical, however, and the contents of the reply are often not very context appropriate
 
-[Write 1-2 paragraphs defining your chatbot: What the goal was, what it actually does, and how it can be used (which input does it expect?)]
-
-This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that could generate context appropriate replies based on user input and that would talk like Eric Cartman, a character from the TV-series South Park. 
-
-Right now it is capable of generating replies using the vocabulary of Eric Cartman. The replies are not always grammatical, however, and the contents of the reply are often not very context appropriate
-
-We included two folders in this repository. The first is the 'Training' folder, which contains the code we used to generate vocabulary lists and checkpoints from which we can load pretrained models. The second folder, 'CartmanBot', contains all files necessary to run our chatbot. 
-
-To run our chatbot, download the CartmanBot folder and run the file 'telegram.py' with python 3.
+We included two folders in this repository. The first is the 'Training' folder, which contains the code we used to generate vocabulary lists and checkpoints from which we can load pretrained models. The second folder, 'CartmanBot', contains all files necessary to run our chatbot. To run our chatbot, download the CartmanBot folder and run the file 'telegram.py' with python 3.
 
 ## Approach
 

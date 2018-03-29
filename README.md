@@ -13,14 +13,14 @@ The other dataset is the Cornell Movie Dataset, linked in the assignment descrip
 ### Model (seq2seq)
 The model we use is the sequence to sequence (seq2seq) model described in the paper "Sequence to Sequence Learning with Deep Neural Networks" by Ilya Sutskever, Oriol Vinyals, Quoc V. Le (http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf). 
 
-The seq2seq model consists of 2 RNNs. The first network encodes the input sequence (i.e. the questions in our data), and constructs a context that is meant to represent the semantics of the input. The second network then decodes this context in order to construct an output sequence (i.e. the answers in our data).
+The seq2seq model consists of 2 RNNs. The first network encodes the input sequence (i.e. the questions in our data), and constructs a context that is meant to represent the semantics of the input. The second network then decodes this context in order to generate an output sequence (i.e. the answers in our data).
 
 Since it would take too much time to implement and debug this model ourselves, we decided to use a github repository. Initially we tried the repository mentioned in the lecture slides (https://github.com/farizrahman4u/seq2seq). However, we failed to get good results and the working example provided on their github page (https://github.com/nicolas-ivanov/debug_seq2seq) mentioned the following: "No good results were achieved with this architecture yet.".
 
 So we decided to use the following repository instead: https://github.com/suriyadeepan/practical_seq2seq. This repository contains an implementation of seq2seq as well as some functions to preprocess our data such that it fits the model.
 
 ### Intelligent feature
-When our model encounters an unknown (i.e. not in vocabulary) word it will replace the unknown word by a synonym that does occur in the vocabulary. For this the NLTK WordNet interface is used (http://www.nltk.org/howto/wordnet.html). For every unknown word, a list of synonyms is generated, and the first synonym that does occur in the vocabulary is used for replacement.
+When our model encounters an unknown (i.e. not in vocabulary) word in the user's input it will replace the unknown word by a synonym that does occur in the vocabulary. This way the chatbot is better capable of generating a reply that makes sense given the semantic meaning of the input. For this the NLTK WordNet interface is used (http://www.nltk.org/howto/wordnet.html). For every unknown word, a list of synonyms is generated, and the first synonym that does occur in the vocabulary is used for replacement.
 
 ### Training the model
 We tried multiple methods of training the model.

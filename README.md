@@ -44,3 +44,5 @@ As you can see, the CartmanBot did not generate very meaningful responses...
 A solution for these problems could be to simply train the model for a larger amount of iterations. In all of our training runs, the validation loss was still changing by quite a bit after each iteration. It may be helpful to train at least until that validation loss stabilizes. 
 
 We also noticed that we got many of the same responses from the Cornell dataset, mostly involving "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
+
+Finally, we have to note that South Park dialogue contains very few lines that are used in normal everyday conversation, which may make it poorly suited for a chatbot that has to respond to user input.

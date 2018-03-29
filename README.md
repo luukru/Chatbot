@@ -1,9 +1,8 @@
 # Chatbot
-Jordy Ripperda - s4381386
-
 This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that could generate context appropriate replies based on user input and that would talk like Eric Cartman, a character from the TV-series South Park. Right now, it is capable of generating replies using the vocabulary of Eric Cartman. However, the replies are not always grammatical and the contents of the reply are often not very context appropriate
 
-We included two folders in this repository. The first is the 'Training' folder, which contains the code we used to generate vocabulary lists and checkpoints from which we can load pretrained models. The second folder, 'CartmanBot', contains all files necessary to run our chatbot. To run our chatbot, download the CartmanBot folder and run the file 'telegram.py' with python 3.
+### Using our chatbot
+In this repository, we included 3 notebooks, which we used to train our models. It also includes the CartmanBot folder, which contains all files necessary to run our chatbot. So to run our chatbot, simply download the CartmanBot folder and run the file 'telegram.py' with python 3.
 
 ## Approach
 
@@ -27,13 +26,11 @@ When our model encounters an unknown (i.e. not in vocabulary) word in the user's
 ### Training the model
 We tried multiple methods of training the model.
 
-* Only Cornell lines.
-* First only Cornell's lines, then all South park lines.
-* First all of Cornell's lines, then only Cartman's lines.
+* Training for 100.000 iterations on the Cornell dataset.
+* First train for 20.000 iterations on the whole dataset, then for another 5.000 iterations on Cartman's lines and conversations.
+* First train for 100.000 iterations on only the Cornell dataset, then another 10.000 iterations on Cartman's lines and conversations.
 
-The reason for this is... (vocabulary size, wider vocabulary)
-
-The best results were achieved using method [X].
+The reason for this is that simply training on Cartman's dialogue resulted in a small vocabulary and generally poor results. We decided to add additional data by first training on bigger datasets and then adding Cartman's personality by finishing the training with a subset of the South Park dataset containing only dialogues involving Cartman. 
 
 ## Results
 

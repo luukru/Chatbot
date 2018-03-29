@@ -38,7 +38,7 @@ We tried multiple methods of training the model.
 
 The reason for this is that simply training on Cartman's dialogue resulted in a small vocabulary and generally poor results. We decided to add additional data by first training on bigger datasets and then adding Cartman's personality by finishing the training with a subset of the South Park dataset containing only dialogues involving Cartman. 
 
-The first method was trained to provide a baseline performance for how well we would expect our model to work.
+The first method was trained to provide a baseline performance for how well we could expect our model to work.
 
 ## Results
 

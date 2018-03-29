@@ -24,12 +24,15 @@ Since it would take too much time to implement and debug this model ourselves, w
 
 So we decided to use the following repository instead: https://github.com/suriyadeepan/practical_seq2seq. This repository contains an implementation of seq2seq as well as some functions to preprocess our data such that it fits the model.
 
+### Intelligent feature
+When our model encounters an unknown (i.e. not in vocabulary) word it will replace the unknow word by a synonym that does occur in the vocabulary. For this the NLTK WordNet interface is used. For every unknown word, a list of synonyms is generated, and the first synonym that does occur in the vocabulary is used for replacement.
+
 ### Training the model
 We tried multiple methods of training the model.
 
-Only Cartman's lines.
-First all of South Park's lines, then only Cartman's lines.
-First all of Cornell's lines, then only Cartman's lines.
+* Only Cartman's lines.
+* First all of South Park's lines, then only Cartman's lines.
+* First all of Cornell's lines, then only Cartman's lines.
 
 The reason for this is... (vocabulary size, wider vocabulary)
 

@@ -18,11 +18,22 @@ The other dataset is the Cornell Movie Dataset, linked in the assignment descrip
 ### Model (seq2seq)
 The model we use is the sequence to sequence (seq2seq) model described in the paper "Sequence to Sequence Learning with Deep Neural Networks" by Ilya Sutskever, Oriol Vinyals, Quoc V. Le (http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf). 
 
+[TODO: korte uitleg seq2seq]
+
 Since it would take too much time to implement and debug this model ourselves, we decided to use a github repository. Initially we tried the repository mentioned in the lecture slides (https://github.com/farizrahman4u/seq2seq). However, we failed to get good results and the working example provided on their github page (https://github.com/nicolas-ivanov/debug_seq2seq) mentioned the following: "No good results were achieved with this architecture yet.".
 
-So we decided to use the following repository instead: https://github.com/suriyadeepan/practical_seq2seq.
+So we decided to use the following repository instead: https://github.com/suriyadeepan/practical_seq2seq. This repository contains an implementation of seq2seq as well as some functions to preprocess our data such that it fits the model.
 
 ### Training the model
+We tried multiple methods of training the model.
+
+Only Cartman's lines.
+First all of South Park's lines, then only Cartman's lines.
+First all of Cornell's lines, then only Cartman's lines.
+
+The reason for this is...
+
+The best results were achieved using method [X].
 
 ### Results
 

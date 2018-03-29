@@ -25,8 +25,8 @@ When our model encounters an unknown (i.e. not in vocabulary) word in the user's
 ### Training the model
 We tried multiple methods of training the model.
 
-* Only Cartman's lines.
-* First all of South Park's lines, then only Cartman's lines.
+* Only Cornell lines.
+* First only Cornell's lines, then all South park lines.
 * First all of Cornell's lines, then only Cartman's lines.
 
 The reason for this is... (vocabulary size, wider vocabulary)

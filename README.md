@@ -1,8 +1,8 @@
 # Chatbot
 
-s4381386
+Jordy Ripperda
 
-s4396863
+Luuk Arts
 
 This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that could generate context appropriate replies based on user input and that would talk like Eric Cartman, a character from the TV-series South Park. Right now, it is capable of generating replies using the vocabulary of Eric Cartman. However, the replies are not always grammatical and the contents of the reply are often not very context appropriate
 

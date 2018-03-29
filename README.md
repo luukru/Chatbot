@@ -1,7 +1,6 @@
 # Chatbot
-Jordy Ripperda, 
-
-Luuk Arts
+* Jordy Ripperda
+* Luuk Arts
 
 This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that could generate context appropriate replies based on user input and that would talk like Eric Cartman, a character from the TV-series South Park. Right now, it is capable of generating replies using the vocabulary of Eric Cartman. However, the replies are not always grammatically correct and the contents of the reply are often not very context appropriate.
 
@@ -47,6 +46,7 @@ The first method was trained to provide a baseline performance for how well we c
 
 ### Cornell data + Cartman's lines
 ![cornell_cartman](cornell_cartman.jpg)
+![cornell_cartman2](cornell_cartman2.jpg)
 
 We can see that the Cornell bot produces some well structured responses. However, the variation of the answers is quite limited and mostly involves "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
 

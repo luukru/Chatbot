@@ -34,7 +34,6 @@ The reason for this is... (vocabulary size, wider vocabulary)
 The best results were achieved using method [X].
 
 ## Results
-[Show the results: Upload a couple of examples and try to motive why it does or does not work. Any future improvements or possible solutions for your chatbot problems should also be added here]
 
 ### Cornell data only
 ![cornell](cornell.jpg)
@@ -45,10 +44,12 @@ The best results were achieved using method [X].
 ### Sout park data only (all characters)
 ![sout_park](south_park.jpg)
 
-As you can see, the CartmanBot did not generate very meaningful responses...
+We can see that the Cornell bot produces some well structured responses. However, the variation of the answers is quite limited and mostly involves "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
 
-A solution for these problems could be to simply train the model for a larger amount of iterations. In all of our training runs, the validation loss was still changing by quite a bit after each iteration. It may be helpful to train at least until that validation loss stabilizes. 
+The cornell + cartman bot already produces more varying answers. However, the structure seems a bit incorrect and meaningless. This could be improved by further training of the model.
 
-We also noticed that we got many of the same responses from the Cornell dataset, mostly involving "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
+The bot that only used south park data seems even more meaningless. This is probably due too the size of the dataset, which is much smaller than the Cornell data set. 
+
+We also tried training on Cartman's lines only but this performed even worse. Herefore we chose not to show the results here.
 
 Finally, we have to note that South Park dialogue contains very few lines that are used in normal everyday conversation, which may make it poorly suited for a chatbot that has to respond to user input.

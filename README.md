@@ -9,8 +9,13 @@ To run our chatbot, download the CartmanBot folder and run the file 'telegram.py
 ## Project
 
 ### Datasets
+We used two datasets to train our model. The first dataset is from Kaggle (https://www.kaggle.com/tovarischsukhov/southparklines/data) and contains South Park dialogues from the first 18 seasons. 
+
+The other dataset is the Cornell Movie Dataset, linked in the assignment description. This dataset contains lines and conversations from a large variety of movies, including the South Park movie "South Park: Bigger, Longer & Uncut".
 
 ### Model (seq2seq)
+
+### Training the model
 
 ### Results
 

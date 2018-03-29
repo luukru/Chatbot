@@ -38,7 +38,7 @@ We tried multiple methods of training the model.
 
 The reason for this is that simply training on Cartman's dialogue resulted in a small vocabulary and generally poor results. We decided to add additional data by first training on bigger datasets and then adding Cartman's personality by finishing the training with a subset of the South Park dataset containing only dialogues involving Cartman. 
 
-The first method was trained to provide a baseline performance for how well we could expect our model for the Cartman bot to work.
+The first method was trained to provide a baseline performance for how well we could expect our model to work.
 
 ## Results
 
@@ -48,15 +48,12 @@ The first method was trained to provide a baseline performance for how well we c
 ### Cornell data + Cartman's lines
 ![cornell_cartman](cornell_cartman.jpg)
 
-### Sout park data only (all characters)
-![sout_park](south_park.jpg)
-
 We can see that the Cornell bot produces some well structured responses. However, the variation of the answers is quite limited and mostly involves "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
 
 The cornell + cartman bot already produces more varying answers. However, the structure seems a bit incorrect and meaningless. This could be improved by further training of the model.
 
 The bot that only used south park data seems even more meaningless. This is probably due too the size of the dataset, which is much smaller than the Cornell data set. 
 
-We also tried training on Cartman's lines only but this performed even worse. Herefore we chose not to show the results here.
+We also tried training on Cartman's lines only but this performed even worse. We chose to not show the results of the latter two because they were too poor.
 
 Finally, we have to note that South Park dialogue contains very few lines that are used in normal everyday conversation, which may make it poorly suited for a chatbot that has to respond to user input.

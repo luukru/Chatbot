@@ -43,4 +43,4 @@ As you can see, the CartmanBot did not generate very meaningful responses...
 
 A solution for these problems could be to..
 
-We also noticed that we got many of the same responses from the Cornell dataset, mostly involving "I don't", "You don't" and "don't know". We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.
+We also noticed that we got many of the same responses from the Cornell dataset, mostly involving "I don't", "You don't" and "don't know". This may have impacted further training on the South Park dataset as well. We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.

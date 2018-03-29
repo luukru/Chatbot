@@ -1,6 +1,6 @@
 # Chatbot
 
-This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that would talk like Cartman, a character from the TV-seris South Park.
+This repository was created for an assignment of the course 'Cognitive Computational Modeling of Language and Web interaction' where we were instructed to create a chatbot. Our goal was to create a chatbot that would talk like Cartman, a character from the TV-series South Park.
 
 ## Running our code
 

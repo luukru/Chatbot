@@ -36,4 +36,11 @@ The best results were achieved using method [X].
 ## Results
 [Show the results: Upload a couple of examples and try to motive why it does or does not work. Any future improvements or possible solutions for your chatbot problems should also be added here]
 
-In the following screenshot, we demonstrate a conversation between ourselves and the CartmanBot.
+[screenshots Cornell, Cartman + Cornell, Cartman Only]
+
+
+As you can see, the CartmanBot did not generate very meaningful responses...
+
+A solution for these problems could be to..
+
+We also noticed that we got many of the same responses from the Cornell dataset, mostly involving "I don't", "You don't" and "don't know". We think we could improve our bot by balancing out the dataset a little more, so that the chatbot gets a more balanced set of responses.

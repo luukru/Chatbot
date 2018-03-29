@@ -13,7 +13,7 @@ The other dataset is the Cornell Movie Dataset, linked in the assignment descrip
 ### Model (seq2seq)
 The model we use is the sequence to sequence (seq2seq) model described in the paper "Sequence to Sequence Learning with Deep Neural Networks" by Ilya Sutskever, Oriol Vinyals, Quoc V. Le (http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf). 
 
-The seq2seq model consists of 2 RNNs. The first network encodes the input sequence (i.e. the questions in our data), and constructs a context that is meant to represent the semantics of the input. The second network than decodes this context in order to construct an output sequence (i.e. the answers in our data).
+The seq2seq model consists of 2 RNNs. The first network encodes the input sequence (i.e. the questions in our data), and constructs a context that is meant to represent the semantics of the input. The second network then decodes this context in order to construct an output sequence (i.e. the answers in our data).
 
 Since it would take too much time to implement and debug this model ourselves, we decided to use a github repository. Initially we tried the repository mentioned in the lecture slides (https://github.com/farizrahman4u/seq2seq). However, we failed to get good results and the working example provided on their github page (https://github.com/nicolas-ivanov/debug_seq2seq) mentioned the following: "No good results were achieved with this architecture yet.".
 

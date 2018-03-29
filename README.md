@@ -36,8 +36,14 @@ The best results were achieved using method [X].
 ## Results
 [Show the results: Upload a couple of examples and try to motive why it does or does not work. Any future improvements or possible solutions for your chatbot problems should also be added here]
 
-[screenshots Cornell, Cartman + Cornell, Cartman Only]
+### Cornell data only
+![cornell](cornell.jpg)
 
+### Cornell data + Cartman's lines
+![cornell_cartman](cornell_cartman.jpg)
+
+### Sout park data only (all characters)
+![sout_park](south_park.jpg)
 
 As you can see, the CartmanBot did not generate very meaningful responses...
 
